@@ -1,7 +1,8 @@
 <template>
   <HeaderApp />
+  <sliderApp />
   <div class="wrap">
-    <sliderApp />
+    <!-- <sliderApp /> -->
     <headingsApp cssClass="title__forms" title="Форма заполнения" />
     <div class="container">
       <CompletionApp
