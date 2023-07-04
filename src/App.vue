@@ -1,6 +1,7 @@
 <template>
   <HeaderApp />
   <div class="wrap">
+    <sliderApp />
     <headingsApp cssClass="title__forms" title="Форма заполнения" />
     <div class="container">
       <CompletionApp
@@ -55,6 +56,7 @@ import HeaderApp from "./components/HeaderApp.vue";
 import CompletionApp from "./components/CompletionApp.vue";
 import cardsApp from "./components/cardsApp.vue";
 import radioApp from "./components/radioApp.vue";
+import sliderApp from "./components/sliderApp.vue";
 import headingsApp from "@/components/additionally/headingsApp.vue";
 
 export default {
@@ -64,6 +66,7 @@ export default {
     cardsApp,
     headingsApp,
     radioApp,
+    sliderApp,
   },
 };
 </script>
