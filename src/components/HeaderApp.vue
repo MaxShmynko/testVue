@@ -65,6 +65,9 @@ li {
 .header {
   background-color: #043873;
   padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .burger-button {
